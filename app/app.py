@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome to Abstergo Corp Online Shop v1.1"
+    return "Welcome to Abstergo Corp Online Shop v1.2"
 
 @app.route("/health")
 def health():
